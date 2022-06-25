@@ -1,0 +1,5 @@
+1. An attractive and usable landing page with relevant information about Dexter’s lab and its equipment.
+
+2. The website can include an admin panel for managing all of Dexter’s lab equipment and various chemicals. This can include features such as monitoring shipments and usage of stock. 
+
+3.  Create an e-commerce website designed to help Dexter spread his various inventions to a larger audience.
