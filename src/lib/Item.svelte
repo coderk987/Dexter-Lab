@@ -39,17 +39,26 @@
 
 <style>
 	img {
-		width: 200px;
+		width: 100%;
+		height: 250px;
+		object-fit: cover;
 		border-radius: 5px 5px 0 0;
 	}
 	.no {
-		visibility: hidden;
+		transform: scale(0);
 	}
 	.card {
 		background-color: #127a94;
 		width: max-content;
 		border-radius: 5px;
 		position: relative;
+		margin: 1em;
+		flex-grow: 1;
+		max-width: 300px;
+	}
+	.card:hover {
+		margin-top: 0.5em;
+		transition: margin-top 0.3s;
 	}
 	.bottom {
 		display: flex;
@@ -78,7 +87,8 @@
 		background: #eba057;
 		font-weight: 300;
 		padding: 0.2em;
-		transition: visibility ease-in;
-		border-radius: 5px;
+		transition: all 0.2s ease-in-out;
+		border-radius: 5px 5px 0 0;
+		min-height: 250px;
 	}
 </style>

@@ -30,6 +30,9 @@
 	<div class="cart" />
 	<div class="items">
 		<Item />
+		<Item />
+		<Item />
+		<Item />
 	</div>
 </div>
 
@@ -64,6 +67,10 @@
 		border-bottom-left-radius: 5px;
 	}
 	.items {
-		padding: 1em 2em;
+		display: flex;
+		padding: 1em;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 </style>
